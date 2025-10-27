@@ -1,4 +1,4 @@
-﻿namespace AppValidationLogin
+﻿namespace projetoHope.Models
 {
     public class Validation
     {

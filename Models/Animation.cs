@@ -1,9 +1,6 @@
-﻿namespace AppValidationLogin
+﻿namespace projetoHope.Models
 {
-    //Criamos uma classe static pois não é necessario instanciar a classe em memoria. Podemos chamar o método direto
-    //Todos os métodos de uma classe static precisão ser static.
-    //A ideia da classe é centralizar as animações do aplicativo em um unico arquivo.
-    public static class Animation
+    public class Animation
     {
         //Animation tremer para coponentes visuais, ou seja, botões, label, entry, imagens, etc ...
         static public async void Tremer(VisualElement elemento)
