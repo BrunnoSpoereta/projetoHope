@@ -9,7 +9,7 @@
            Source="iconsflecha.png"
            HeightRequest="50"
            VerticalOptions="Center"
-           HorizontalOptions="Center" />
+            />
 
         <Image x:Name="imgSplash"
            Source="logoredondo.png"
