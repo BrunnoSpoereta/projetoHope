@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projetoHope.Views.PgLoginView"
+             Title="PgLoginView">
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="6">
+            <Label Text="Usuario" />
+            <Entry x:Name="txtUsuario" Placeholder="Nome de Usuario" />
+            <Label x:Name="valUsuario" TextColor="Red" FontSize="12" IsVisible="False" />
+
+            <Label Text="Senha" />
+            <Entry x:Name="txtSenha" Placeholder="Número"/>
+            <Label x:Name="valSenha" TextColor="Red" FontSize="12" IsVisible="False" />
+
+            <Grid ColumnDefinitions="*,*" Margin="0,12,0,0">
+                <Button Text="Login"   Clicked="btnLoginClicked"   Grid.Column="0" BackgroundColor="#98b1ce"/>
+                <Button Text="Cadastrar" Clicked="btnCadastrarClicked" Grid.Column="1" BackgroundColor="#98b1ce"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

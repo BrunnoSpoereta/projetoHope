@@ -37,6 +37,6 @@ public partial class PgPrincipalView : ContentPage
         await imgFlecha.TranslateTo(0, yFinal, 1200, Easing.CubicIn);
 
 
-        Application.Current.MainPage = new NavigationPage(new MainPage());
+        Application.Current.MainPage = new NavigationPage(new PgLoginView());
     }
 }
